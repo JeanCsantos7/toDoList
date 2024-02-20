@@ -1,0 +1,44 @@
+
+
+.containerCarrosel{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+.imagemCarrosel{
+    width: 75%;
+    height: 458px;
+}
+
+@media screen and  (max-width: 768px)
+{
+
+
+    .containerCarrosel{
+
+
+        margin-top: 12.5%;
+    }
+
+
+    .imagemCarrosel{
+        width: 100%;
+        height: 200px;
+       
+    }
+}
+
+
+@media screen and (min-width: 769px) and (max-width: 1200px)
+{
+
+    .imagemCarrosel{
+        width: 78%;
+        height: 285px;
+    }
+
+
+}

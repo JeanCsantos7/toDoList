@@ -1,0 +1,140 @@
+
+
+*{
+   font-family: "Montserrat", sans-serif;
+}
+.imoveisTitulo{
+    font-family: "Poppins", sans-serif;
+    color: rgb(81, 79, 79);
+    text-align: center;
+    margin-top: 5%;
+}
+
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 4%;
+}
+
+.containerCard{
+    background-color: rgb(188, 188, 188);
+    width: 20%;
+    height: 490px;
+    border-radius: 6px;
+    margin-top: 3.5%;
+    
+  
+}
+
+.card{
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: left;
+   
+   
+}
+
+.imagemApartamento{
+ margin: 0 auto;
+ width: 100%;
+ height: 280px;
+ border-radius: 2px;
+
+
+}
+
+
+.tipoImovel, .informacoesAP, .favoritos{
+    margin-left: 8%;
+    padding: 1%;
+    color: #fff;
+   
+
+}
+
+#valor{
+    font-weight: 780;
+    font-size: 20px;
+}
+
+
+
+.precos{
+    display: flex;
+    align-items: center;
+    gap: 18.5%;
+    margin-top: 2%;
+   
+}
+
+.favoritos{
+    font-size: 28px;
+    color: rgb(216, 51, 51);
+    
+}
+
+
+.informacoes{
+    display: flex;
+    align-items: center;
+    gap: 6%;
+    margin-left: 9%;
+    margin-top: 4%;
+
+}
+
+.icones{
+    color: rgb(255, 255, 255);
+}
+
+
+
+/* .paragrafoMetros{
+
+}
+ */
+
+ @media screen and (max-width: 768px)
+ {
+
+    .container{
+        flex-direction: column;
+    }
+
+    .containerCard{
+        background-color: rgb(188, 188, 188);
+        width: 85%;
+        height: 525px;
+        border-radius: 6px;
+        margin-top: 3.5%;
+        
+      
+    }
+
+
+ }
+
+ @media screen and (min-width: 769px) and (max-width: 1200px)
+ {
+
+    .container{
+        flex-direction: column;
+    }
+
+    .containerCard{
+        background-color: rgb(188, 188, 188);
+        width: 58%;
+        height: 465px;
+        border-radius: 6px;
+        margin-top: 3.5%;
+        
+      
+    }
+
+
+ }

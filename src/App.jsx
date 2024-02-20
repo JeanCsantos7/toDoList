@@ -1,13 +1,15 @@
 
-
-import ToDoList from "./components/todoList"
-
+import Rotas from './routes'
+import Home from './pages/Home'
 function App() {
-
+ 
 
   return (
     <>
-    <ToDoList></ToDoList>
+    
+    
+    <Rotas></Rotas>
+
     </>
   )
 }
