@@ -1,0 +1,99 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 2%;
+  background-color: #fcfcfc;
+}
+
+.logotipo {
+  display: flex;
+  align-items: center;
+}
+
+.iconLogo {
+  font-size: 46px;
+  color: rgb(216, 51, 51);
+}
+
+.logotipo h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: rgb(216, 51, 51);
+}
+
+.campoEntrada {
+  display: flex;
+  align-items: center;
+}
+
+.inputValue {
+  font-family: "Montserrat", sans-serif;
+  cursor: pointer;
+  width: 470px;
+  height: 45px;
+  outline: none;
+  border: 1px solid rgb(134, 134, 134);
+  border-radius: 3px;
+}
+
+.btnInput {
+  background-color: rgb(216, 51, 51);
+}
+
+.lupa {
+  font-size: 25px;
+
+  color: #fff;
+}
+
+button {
+  background-color: rgb(188, 188, 188);
+  height: 45px;
+  width: 70px;
+  border-radius: 2px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+.listaFavoritos {
+    font-size: 25px;
+    cursor: pointer;
+    margin-left: 8%;
+    color: rgb(216, 51, 51);
+  }
+
+
+
+@media screen and (max-width: 768px) {
+  .inputValue {
+    width: 216px;
+    height: 35px;
+    margin-left: 7%;
+  }
+
+  button {
+    height: 35px;
+    width: 45px;
+  }
+
+  .iconLogo{
+    font-size: 39.5px;
+  }
+
+  .logotipo h1 {
+    font-size: 16px;
+  }
+
+  .listaFavoritos {
+    margin-left: 4%;
+  }
+}
